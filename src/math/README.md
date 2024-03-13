@@ -24,10 +24,6 @@ logo="https://logo.clearbit.com/clearbit.com"
 
 <div class="vp-card-container">
 
-
-
-
-
 ```component VPCard
   logo: https://logo.clearbit.com/clearbit.com
   title: 质数
@@ -47,3 +43,15 @@ logo="https://logo.clearbit.com/clearbit.com"
 
 
 </div>
+
+
+
+### 基础数学3
+
+<VPCard
+logo="https://logo.clearbit.com/clearbit.com"
+  title="快速幂与矩阵快速幂"
+  link="basic_math3/kuaisumi"
+  desc="Base Conversion"
+/>
+
