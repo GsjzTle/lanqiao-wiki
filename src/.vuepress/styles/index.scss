@@ -1,0 +1,22 @@
+
+// 卡片组件
+
+.vp-card {
+    box-shadow: none;
+    border: 1px solid var(--border-color);
+    transition: transform ease-in-out 0.3s, background var(--color-transition), border var(--color-transition);
+}
+
+.vp-card:hover {
+    border: 1px solid var(--theme-color);
+    background: var(--bg-color-secondary);
+}
+
+.vp-card hr {
+    margin: 0;
+    border-top: 0;
+}
+.vp-card-container .vp-card {
+    flex: 1 1 calc(33% - 3rem);
+}
+
