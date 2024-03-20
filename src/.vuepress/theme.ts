@@ -83,7 +83,7 @@ export default hopeTheme({
             if (tag === "em")
               return {
                 tag: "Badge",
-                attrs: { type: "tip" },
+                attrs: { type: "block" },
                 content: "Recommended",
               };
           },
